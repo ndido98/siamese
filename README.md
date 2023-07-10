@@ -14,6 +14,7 @@ pip install -r requirements.txt
 ## Usage
 
 The siamese package exposes a `get_prediction` function which, in its simplest form, takes in input a document and a live image, and returns a morphing prediction.
+0 means that the document image is bona fide, while 1 means that the document image is morphed.
 
 ```python
 from siamese import get_prediction
