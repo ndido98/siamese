@@ -55,3 +55,20 @@ lives = [cv.imread("live1.png"), cv.imread("live2.png")]
 # Get the predictions
 predictions = get_prediction(documents, lives, device="cuda:0")
 ```
+
+## Acknowledgement
+
+When using the code from this repository, please cite the following work:
+
+```bibtex
+@article{borghi2021double,
+  title={A double siamese framework for differential morphing attack detection},
+  author={Borghi, Guido and Pancisi, Emanuele and Ferrara, Matteo and Maltoni, Davide},
+  journal={Sensors},
+  volume={21},
+  number={10},
+  pages={3466},
+  year={2021},
+  publisher={MDPI}
+}
+```
